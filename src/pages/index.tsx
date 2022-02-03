@@ -17,7 +17,8 @@ export default function Home({ title = 'React Avançado' }: Props) {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">React Avançado/NextJs na prática</a>
+          Welcome to{' '}
+          <a href="https://nextjs.org">React Avançado/NextJs na prática</a>
         </h1>
 
         <p className={styles.description}>
